@@ -1,0 +1,9 @@
+Module
+  name: jump
+  description: Jump button for Tavernlight Software Developer application
+  author: LibanioL
+  website: www.libaniol.com
+  sandboxed: true
+  scripts: [ jump.lua ]
+  @onLoad: init()
+  @onUnload: terminate()

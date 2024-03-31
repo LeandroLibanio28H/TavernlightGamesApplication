@@ -1,0 +1,9 @@
+Module
+  name: dash
+  description: Tavernlight Trial Q6
+  author: libaniol
+  website: https://libaniol.com
+  sandboxed: true
+  scripts: [ dash ]
+  @onLoad: init()
+  @onUnload: terminate()

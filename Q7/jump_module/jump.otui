@@ -1,0 +1,16 @@
+JumpButton < Button
+  !text: tr('Jump')
+  id: jumpbutton
+  width: 64
+  @onClick: onJumpClick()
+
+MiniWindow
+  icon: /images/topbuttons/particles
+  id: jumpWindow
+  !text: tr('Jump')
+  height: 128
+  @onClose: modules.jump.onMiniWindowClose()
+  &save: true
+
+  MiniWindowContents
+    JumpButton
