@@ -14,6 +14,6 @@ function onLogout(player)
 end
 ```
 
-## Solution
+## Considerations
 I added a new parameter to the releaseStorage, making it more generic so that it's easy to add new keys to release whenever necessary. 
 Additionally, the function now returns a boolean value representing success.
