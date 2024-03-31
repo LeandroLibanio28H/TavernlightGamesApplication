@@ -11,7 +11,11 @@ https://github.com/LeandroLibanio28H/TavernlightGamesApplication/assets/68310301
 
 
 ## Solution
-You can test the spell by pressing F1 (Client side dash) or F2 (Server side spell)
+To perform the dash, I applied two approaches: one consists of a spell, and the other is a movement performed by the client. 
+The spell can be cast by saying the words "utani dash hur", but unfortunately, the shader will not be applied if the spell is cast in this way. 
+To address this, a module was created in the otclient that causes the spell to be cast by pressing the F2 key. Pressing the F1 key will execute the client-side dash effect. 
+
+_By using the commands above, the shader will be reproduced_
 
 https://github.com/LeandroLibanio28H/TavernlightGamesApplication/assets/68310301/3a175c17-b9c5-4904-8cd9-e6eb8d08b2ad
 
