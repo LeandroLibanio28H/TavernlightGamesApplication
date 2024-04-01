@@ -30,3 +30,5 @@ First, I attempted an approach using smart pointers in C++. Then, I realized tha
 When I was evaluating the TFS source code, I decided to stick with raw pointers, deleting them only when they are not found, to free up the allocated memory.
 
 This solution is implemented and working in the binaries sent along with the challenge. Just type /additemcustom, and your character will receive a free crystal coin.
+
+You can find the code [here](https://github.com/otland/forgottenserver/commit/898c0edc5a7617dbbb0c02a793d556eae30ed3da)
